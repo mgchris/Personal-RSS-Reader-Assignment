@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		54B10DF91AD5A70700CBE561 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B10DF81AD5A70700CBE561 /* main.m */; };
 		54B10DFC1AD5A70700CBE561 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B10DFB1AD5A70700CBE561 /* AppDelegate.m */; };
-		54B10DFF1AD5A70700CBE561 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B10DFE1AD5A70700CBE561 /* ViewController.m */; };
 		54B10E021AD5A70700CBE561 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54B10E001AD5A70700CBE561 /* Main.storyboard */; };
 		54B10E041AD5A70700CBE561 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54B10E031AD5A70700CBE561 /* Images.xcassets */; };
 		54B10E071AD5A70700CBE561 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54B10E051AD5A70700CBE561 /* LaunchScreen.xib */; };
 		54B10E131AD5A70700CBE561 /* Fast_RSS_ReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B10E121AD5A70700CBE561 /* Fast_RSS_ReaderTests.m */; };
+		54B10E1E1AD5A72700CBE561 /* RSSReaderTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B10E1D1AD5A72700CBE561 /* RSSReaderTableViewController.m */; };
+		54B10E211AD5A73F00CBE561 /* NSDictionary+helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B10E201AD5A73F00CBE561 /* NSDictionary+helpers.m */; };
+		54B10E241AD5A7C900CBE561 /* FRRItemRSS.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B10E231AD5A7C900CBE561 /* FRRItemRSS.m */; };
+		54B10E271AD5AA1300CBE561 /* FRRFetchRSS.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B10E261AD5AA1300CBE561 /* FRRFetchRSS.m */; };
+		54B10E2A1AD5D25C00CBE561 /* FRRCacheJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B10E291AD5D25C00CBE561 /* FRRCacheJSON.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +36,22 @@
 		54B10DF81AD5A70700CBE561 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		54B10DFA1AD5A70700CBE561 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		54B10DFB1AD5A70700CBE561 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		54B10DFD1AD5A70700CBE561 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		54B10DFE1AD5A70700CBE561 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		54B10E011AD5A70700CBE561 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		54B10E031AD5A70700CBE561 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		54B10E061AD5A70700CBE561 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		54B10E0C1AD5A70700CBE561 /* Fast RSS ReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fast RSS ReaderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54B10E111AD5A70700CBE561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54B10E121AD5A70700CBE561 /* Fast_RSS_ReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fast_RSS_ReaderTests.m; sourceTree = "<group>"; };
+		54B10E1C1AD5A72700CBE561 /* RSSReaderTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSReaderTableViewController.h; sourceTree = "<group>"; };
+		54B10E1D1AD5A72700CBE561 /* RSSReaderTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSReaderTableViewController.m; sourceTree = "<group>"; };
+		54B10E1F1AD5A73F00CBE561 /* NSDictionary+helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+helpers.h"; sourceTree = "<group>"; };
+		54B10E201AD5A73F00CBE561 /* NSDictionary+helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+helpers.m"; sourceTree = "<group>"; };
+		54B10E221AD5A7C900CBE561 /* FRRItemRSS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRRItemRSS.h; sourceTree = "<group>"; };
+		54B10E231AD5A7C900CBE561 /* FRRItemRSS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRRItemRSS.m; sourceTree = "<group>"; };
+		54B10E251AD5AA1300CBE561 /* FRRFetchRSS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRRFetchRSS.h; sourceTree = "<group>"; };
+		54B10E261AD5AA1300CBE561 /* FRRFetchRSS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRRFetchRSS.m; sourceTree = "<group>"; };
+		54B10E281AD5D25C00CBE561 /* FRRCacheJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRRCacheJSON.h; sourceTree = "<group>"; };
+		54B10E291AD5D25C00CBE561 /* FRRCacheJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRRCacheJSON.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +95,16 @@
 			children = (
 				54B10DFA1AD5A70700CBE561 /* AppDelegate.h */,
 				54B10DFB1AD5A70700CBE561 /* AppDelegate.m */,
-				54B10DFD1AD5A70700CBE561 /* ViewController.h */,
-				54B10DFE1AD5A70700CBE561 /* ViewController.m */,
+				54B10E1C1AD5A72700CBE561 /* RSSReaderTableViewController.h */,
+				54B10E1D1AD5A72700CBE561 /* RSSReaderTableViewController.m */,
+				54B10E221AD5A7C900CBE561 /* FRRItemRSS.h */,
+				54B10E231AD5A7C900CBE561 /* FRRItemRSS.m */,
+				54B10E251AD5AA1300CBE561 /* FRRFetchRSS.h */,
+				54B10E261AD5AA1300CBE561 /* FRRFetchRSS.m */,
+				54B10E281AD5D25C00CBE561 /* FRRCacheJSON.h */,
+				54B10E291AD5D25C00CBE561 /* FRRCacheJSON.m */,
+				54B10E1F1AD5A73F00CBE561 /* NSDictionary+helpers.h */,
+				54B10E201AD5A73F00CBE561 /* NSDictionary+helpers.m */,
 				54B10E001AD5A70700CBE561 /* Main.storyboard */,
 				54B10E031AD5A70700CBE561 /* Images.xcassets */,
 				54B10E051AD5A70700CBE561 /* LaunchScreen.xib */,
@@ -168,6 +188,7 @@
 				TargetAttributes = {
 					54B10DF21AD5A70700CBE561 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 2X62TMYVFJ;
 					};
 					54B10E0B1AD5A70700CBE561 = {
 						CreatedOnToolsVersion = 6.2;
@@ -219,9 +240,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54B10DFF1AD5A70700CBE561 /* ViewController.m in Sources */,
 				54B10DFC1AD5A70700CBE561 /* AppDelegate.m in Sources */,
+				54B10E241AD5A7C900CBE561 /* FRRItemRSS.m in Sources */,
+				54B10E271AD5AA1300CBE561 /* FRRFetchRSS.m in Sources */,
+				54B10E2A1AD5D25C00CBE561 /* FRRCacheJSON.m in Sources */,
 				54B10DF91AD5A70700CBE561 /* main.m in Sources */,
+				54B10E1E1AD5A72700CBE561 /* RSSReaderTableViewController.m in Sources */,
+				54B10E211AD5A73F00CBE561 /* NSDictionary+helpers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +368,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Fast RSS Reader/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,7 +380,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Fast RSS Reader/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +441,7 @@
 				54B10E181AD5A70700CBE561 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54B10E191AD5A70700CBE561 /* Build configuration list for PBXNativeTarget "Fast RSS ReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +450,7 @@
 				54B10E1B1AD5A70700CBE561 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
