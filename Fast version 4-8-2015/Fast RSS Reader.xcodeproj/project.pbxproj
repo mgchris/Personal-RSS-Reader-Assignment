@@ -52,6 +52,7 @@
 		54B10E261AD5AA1300CBE561 /* FRRFetchRSS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRRFetchRSS.m; sourceTree = "<group>"; };
 		54B10E281AD5D25C00CBE561 /* FRRCacheJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRRCacheJSON.h; sourceTree = "<group>"; };
 		54B10E291AD5D25C00CBE561 /* FRRCacheJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRRCacheJSON.m; sourceTree = "<group>"; };
+		54DEC2501AD6E1EA001E9DA8 /* Thoughts.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Thoughts.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +76,7 @@
 		54B10DEA1AD5A70700CBE561 = {
 			isa = PBXGroup;
 			children = (
+				54DEC2501AD6E1EA001E9DA8 /* Thoughts.strings */,
 				54B10DF51AD5A70700CBE561 /* Fast RSS Reader */,
 				54B10E0F1AD5A70700CBE561 /* Fast RSS ReaderTests */,
 				54B10DF41AD5A70700CBE561 /* Products */,
